@@ -35,7 +35,7 @@ const Skills = () => {
             <div
               className='cont-img'
               style={{
-                backgroundImage: `url(http://localhost:5000/images/${images[index]})`,
+                backgroundImage: `url(${url}/images/${images[index]})`,
                 backgroundSize: 'cover',
                 height: '150px',
                 backgroundRepeat: 'no-repeat',
