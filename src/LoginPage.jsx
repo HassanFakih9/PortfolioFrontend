@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Navigate } from 'react-router-dom';
 import Dashboard from './Dashboard';
 import styles from './LoginPage.module.css'; // Use the correct path
 import axios from 'axios';
