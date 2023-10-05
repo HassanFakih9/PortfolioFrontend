@@ -1,0 +1,11 @@
+
+
+
+5 - Skills
+    .Put sub-titles for each skill 
+    .Minimize spacing
+
+6 - Get in touch
+    .Put only icons
+    .Put phone icon 
+

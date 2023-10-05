@@ -1,0 +1,79 @@
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* .social-container {
+  background-color: #89CFF0;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1%;
+  gap : 5vh;
+} */
+/* 
+.social-container {
+  background-color: #89CFF0;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1%;
+  gap: 5vh;
+  position: relative; /* Add position relative for absolute positioning} */
+
+
+
+  .social-container {
+    background-color: #89CFF0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1%;
+    gap : 5vh;
+    position: relative;
+  }
+  .phone{
+    color: blue;
+  }
+  .phone-number {
+    position: absolute;
+    bottom: -40px; /* Adjust this value to position the phone number */
+    left: 7%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+  }
+
+.social-container:hover .phone-number {
+  display: block;
+  color:black;
+}
+
+.copy {
+  margin-top: 100px;
+}
+.p1 {
+  font-size: xx-large;
+  background-color:#89CFF0;
+  color: white;
+  padding-top: 2%;
+  width: 100vw;
+  margin-left: 2%;
+  text-align: center;
+}
+.p2 {
+  color: white;
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 1%;
+  width: 100vw;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  background-color: #89CFF0;
+  width: 100vw;
+}
