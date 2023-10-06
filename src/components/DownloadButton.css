@@ -4,17 +4,20 @@
   justify-content: center;
   color: rgb(237, 237, 237);
   margin-left: 0px;
-  padding-left: 70px;
+  padding-left: 0px;
   margin-top: -10px;
   margin-bottom: 70px;
 }
 
 .centered-button {
   /* Styles pour le bouton, par exemple : */
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   background-color: white;
   color: black;
   border: none;
   cursor: pointer;
   border-radius: 120px;
+  /* margin:auto; */
+  text-align: center;
+
 }

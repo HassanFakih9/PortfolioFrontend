@@ -3,21 +3,7 @@ footer {
   margin-top: 50px;
 }
 
-/* .social-container {
-  background-color: #89CFF0;
-  display: flex;
-  flex-direction: row;
-  margin-left: 1%;
-  gap : 5vh;
-} */
-/* 
-.social-container {
-  background-color: #89CFF0;
-  display: flex;
-  flex-direction: row;
-  margin-left: 1%;
-  gap: 5vh;
-  position: relative; /* Add position relative for absolute positioning} */
+
 
 
 
@@ -26,7 +12,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 1%;
+    margin-left: %;
     gap : 5vh;
     position: relative;
   }
@@ -35,8 +21,6 @@ footer {
   }
   .phone-number {
     position: absolute;
-    bottom: -40px; /* Adjust this value to position the phone number */
-    left: 7%;
     transform: translateX(-50%);
     background-color: white;
     padding: 5px;
@@ -59,8 +43,10 @@ footer {
   color: white;
   padding-top: 2%;
   width: 100vw;
-  margin-left: 2%;
   text-align: center;
+  align-self: center;
+  justify-self: center;
+  margin-left: 0px;
 }
 .p2 {
   color: white;
