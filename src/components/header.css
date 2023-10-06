@@ -1,65 +1,118 @@
-footer {
-  text-align: center;
-  margin-top: 50px;
+/* styles.css */
+
+/* Style the header in normal orange */
+header {
+  background-color: darkorange;
+  color: black;
+  margin-left: -50px;
 }
 
-
-
-
-
-  .social-container {
-    background-color: #89CFF0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: %;
-    gap : 5vh;
-    position: relative;
-  }
-  .phone{
-    color: blue;
-  }
-  .phone-number {
-    position: absolute;
-    transform: translateX(-50%);
-    background-color: white;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: none;
-  }
-
-.social-container:hover .phone-number {
-  display: block;
-  color:black;
-}
-
-.copy {
-  margin-top: 100px;
-}
-.p1 {
-  font-size: xx-large;
-  background-color:#89CFF0;
-  color: white;
-  padding-top: 2%;
-  width: 100vw;
-  text-align: center;
-  align-self: center;
-  justify-self: center;
-  margin-left: 0px;
-}
-.p2 {
-  color: white;
-  text-align: center;
-  font-size: smaller;
-  margin-bottom: 1%;
-  width: 100vw;
-}
-
-.outer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 5vh;
+/* Style the navigation bar in dark orange */
+nav {
   background-color: #89CFF0;
-  width: 100vw;
+  color: black;
+}
+
+.container {
+  color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: -1px;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: purple ; /* Change to the desired hover color */
+}
+
+
+.myName {
+  font-size: 50px;
+  color: #8F9FFF;
+  background: white;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.8px);
+-webkit-backdrop-filter: blur(1.8px);
+  display: flex;
+  flex-direction: row;
+  margin-top: 1px;
+  margin-bottom: -1px;
+  white-space: nowrap;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Layla {
+  margin: 40px;
+}
+
+.text-content {
+  background: white;
+backdrop-filter: blur(1.8px);
+-webkit-backdrop-filter: blur(1.8px);
+  border-bottom-left-radius: 18%;
+  border-bottom-right-radius: 18%;
+  display: flex;
+  padding-bottom: -100px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paragraph {
+  color:#79A1D9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 20px;
+  width: 100%;
+  text-align:left;
+  font-size: 25px;
+  line-height: 2.5;
+}
+
+.text-image-section {
+  height: 500px;
+  width: 500px;
+  padding-right: 50px;
+  padding: -300px;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
